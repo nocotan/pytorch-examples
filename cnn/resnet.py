@@ -25,3 +25,4 @@ class BasicBlock(nn.Module):
         h = F.relu(self.bn2(self.conv2(h)))
 
         return h
+
